@@ -5,7 +5,7 @@ public class CreateUserResponseModel {
     private String firstName;
     private String lastName;
     private String email;
-    private String password;
+    private String userId;
 
     public String getFirstName() {
         return firstName;
@@ -31,11 +31,7 @@ public class CreateUserResponseModel {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
-    }
+    public String getUserId() { return userId; }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+    public void setUserId(String userId) { this.userId = userId; }
 }
